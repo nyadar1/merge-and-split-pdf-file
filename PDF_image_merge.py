@@ -184,6 +184,6 @@ if __name__ == '__main__':
     file_list = ["1.jpg","2.jpg","1.pdf", "2.pdf", "3.pdf","4.pdf","5.pdf","6.pdf","7.pdf","8.pdf","9.pdf","10.pdf"]
     # file_list为空时(默认)合并python文件所在目录下所有pdf文件，merge_pdf_and_image为True时，将图片也进行合并
     # file_list不为空时合并列表中.pdf, jpg, jpeg, png文件
-    # merge_pdf(file_list, merge_pdf_and_image=True)
+    merge_pdf(file_list, merge_pdf_and_image=True)
     split_pdf("merged_document.pdf", [1, 3, 5, 11], '.')
     # test_pdf_load(pdf_list)
